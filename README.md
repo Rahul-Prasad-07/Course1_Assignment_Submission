@@ -58,3 +58,6 @@ You can use some other logic to identify corrupted banks over the network. (For 
 ## Phase 3:
 - In this phase, we'll install Hardhat on our machines
 - The smart contracts will be compiled and deployed using Hardhat
+
+![image](https://user-images.githubusercontent.com/99068989/202844887-79540d23-b37c-4a65-a2ef-e299de4d57e4.png)
+
