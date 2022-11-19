@@ -54,3 +54,7 @@ This case study is divided into three phases to achieve the solution. The phases
 - Depending on the number of reports and the number of banks present in the network, it will be decided whether any bank is allowed to downvote or upvote. If any bank gets reported more than one-third of the banks present in the network, it will not be allowed to do KYC anymore. 
 
 You can use some other logic to identify corrupted banks over the network. (For example, if more than half of the banks report the bank or the upvoted customers by a bank get more than a threshold number of downvotes by the other). If a bank is corrupted, set the 'isAllowedToVote' variable of the bank struct to false.
+
+## Phase 3:
+- In this phase, we'll install Hardhat on our machines
+- The smart contracts will be compiled and deployed using Hardhat
