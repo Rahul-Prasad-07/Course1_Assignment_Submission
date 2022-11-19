@@ -1,0 +1,65 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "Admin",
+  "sourceName": "Contracts/Kyc.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "string",
+          "name": "_name",
+          "type": "string"
+        },
+        {
+          "internalType": "address",
+          "name": "_bankAddress",
+          "type": "address"
+        },
+        {
+          "internalType": "string",
+          "name": "_regNumber",
+          "type": "string"
+        }
+      ],
+      "name": "addBank",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_bankAddress",
+          "type": "address"
+        },
+        {
+          "internalType": "bool",
+          "name": "_isAllowedToVote",
+          "type": "bool"
+        }
+      ],
+      "name": "isAllowedToVote",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_bankAddress",
+          "type": "address"
+        }
+      ],
+      "name": "removeBank",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
